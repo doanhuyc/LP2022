@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41a939b3-9bc9-4fa8-9e2c-ccd6a83fa043" name="Default Changelist" comment="commit 1">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IN2009 Coursework 2021.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LL1Check.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LP2022.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/boolParam1-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/boolParam1.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/counter-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/counter.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/defRetBool-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/defRetBool.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/defRetBool2-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/defRetBool2.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/defRetInt-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/defRetInt.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/defRetInt2-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/defRetInt2.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/echoint-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/echoint.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/exit-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/exit.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/fac-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/fac.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/fib0-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/fib0.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/ifBar-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/ifBar.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/ifFoo-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/ifFoo.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/iterfac-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/iterfac.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/manyParameters-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/manyParameters.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/max99_3-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/max99_3.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/pingPong-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/pingPong.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/printint-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/printint.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/recMain1-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/recMain1.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/recsum-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/recsum.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/recsum11-13-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/recsum11-13.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/recsuma-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/recsuma.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/xor00-alt-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/xor00-alt.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/xor01-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/compiler-tests/xor01.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/lpfun.sbnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test0.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test1.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test10.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test11.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test12.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test13.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test14.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test15.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test16.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test17.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test18.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test19.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test2.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test20.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test21.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test22.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test23.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test24.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test25.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test26.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test27.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test28.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test29.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test3.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test30.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test31.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test32.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test33.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test34.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test35.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test36.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test37.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test38.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test39.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test4.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test40.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test41.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test42.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test43.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test44.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test45.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test46.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test47.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test48.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test49.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test5.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test50.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test51.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test52.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test53.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test54.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test55.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test56.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test57.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test58.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test59.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test6.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test60.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test61.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test62.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test63.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test64.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test65.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test66.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test67.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test68.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test69.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test7.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test70.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test71.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test72.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test73.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test74.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test75.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test76.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test77.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test78.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test79.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test8.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpfun/parser-tests/test9.lpfun" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/compiler-tests/bodmas0.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/compiler-tests/bodmas1.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/compiler-tests/bodmas2.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/compiler-tests/divdiv.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/compiler-tests/divmul.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/compiler-tests/muldiv.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/lpop.sbnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test0.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test1.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test10.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test11.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test12.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test13.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test14.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test15.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test16.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test17.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test18.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test19.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test2.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test20.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test21.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test22.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test23.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test24.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test25.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test26.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test27.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test28.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test29.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test3.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test30.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test31.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test32.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test33.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test34.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test35.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test36.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test37.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test38.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test39.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test4.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test40.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test41.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test42.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test43.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test44.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test45.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test46.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test47.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test48.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test49.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test5.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test50.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test51.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test52.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test53.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test54.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test55.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test56.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test57.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test58.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test59.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test6.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test60.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test61.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test62.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test63.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test64.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test65.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test66.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test67.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test68.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test69.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test7.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test70.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test71.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test72.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test73.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test74.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test75.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test76.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test77.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test78.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test79.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test8.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpop/parser-tests/test9.lpop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ANDFF-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ANDFF.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ANDFT-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ANDFT.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ANDTF-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ANDTF.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ANDTT-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ANDTT.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ORFF-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ORFF.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ORFT-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ORFT.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ORTF-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ORTF.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ORTT-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ORTT.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/add-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/add.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/basicPrintint-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/basicPrintint.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/boolVar-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/boolVar.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/countdown-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/countdown.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/countup-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/countup.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/deeplyNestedExp-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/deeplyNestedExp.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/hello-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/hello.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ifFalseNoop-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ifFalseNoop.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ifNot-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ifNot.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ifTrueNoop-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ifTrueNoop.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/intVar-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/intVar.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/iterfac-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/iterfac.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/max99_3-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/max99_3.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/nestedExp-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/nestedExp.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/nestedIf1-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/nestedIf1.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/nestedIf2-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/nestedIf2.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/nestedWhile-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/nestedWhile.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/nestedWhileIf-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/nestedWhileIf.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ninety-nine-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/ninety-nine.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/remainder-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/remainder.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleBoolean_001-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleBoolean_001.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleBoolean_002-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleBoolean_002.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleBoolean_003-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleBoolean_003.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleBoolean_004-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleBoolean_004.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleInt_001-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleInt_001.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleInt_002-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleInt_002.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleInt_003-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleInt_003.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleInt_004-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleInt_004.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleVar-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleVar.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleVarWhile-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/simpleVarWhile.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/timesTable-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/timesTable.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/twoVars-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/twoVars.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/whileFalse-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/whileFalse.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/xor00-expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/compiler-tests/xor00.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/lpse.sbnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test0.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test1.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test10.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test11.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test12.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test13.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test14.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test15.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test16.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test17.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test18.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test19.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test2.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test20.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test21.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test22.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test23.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test24.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test25.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test26.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test27.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test28.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test29.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test3.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test30.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test31.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test32.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test33.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test34.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test35.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test36.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test37.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test38.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test39.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test4.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test40.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test41.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test42.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test43.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test44.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test45.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test46.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test47.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test48.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test49.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test5.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test50.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test51.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test52.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test53.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test54.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test55.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test56.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test57.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test58.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test59.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test6.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test60.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test61.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test62.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test63.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test64.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test65.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test66.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test67.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test68.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test69.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test7.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test70.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test71.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test72.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test73.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test74.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test75.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test76.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test77.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test78.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test79.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test8.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lpse/parser-tests/test9.lpse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/ParseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/lpfun/LPfunCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/lpfun/LPfunParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/lpfun/LPfunTokens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/lpop/LPopCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/lpop/LPopParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/lpop/LPopTokens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/lpse/LPseCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/lpse/LPseParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/lpse/LPseTokens.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1457522654">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="18" />
+          <entry key="lpfun" value="4" />
+          <entry key="lpop" value="3" />
+          <entry key="lpse" value="4" />
+          <entry key="sbnf" value="2" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="18" />
+          <entry key="PLAIN_TEXT" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lang/lpop/LPopCompiler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lang/lpop/LPopParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lang/lpfun/LPfunCompiler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lang/lpfun/LPfunParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lang/lpfun/LPfunTokens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lang/ParseException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lang/lpse/LPseCompiler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lang/lpse/LPseParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lang/lpse/LPseTokens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lang/lpop/LPopTokens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Lexer</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="2578" />
+    <option name="height" value="1408" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LP2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LP2022" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LP2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LP2022" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LP2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LP2022" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LP2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LP2022" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LP2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LP2022" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="lpfun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LP2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LP2022" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="lpop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LP2022" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LP2022" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="lpse" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649121991593" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41a939b3-9bc9-4fa8-9e2c-ccd6a83fa043" name="Default Changelist" comment="" />
+      <created>1649121331775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649121331775</updated>
+      <workItem from="1649121334842" duration="656000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="656000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24975026" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CheckStyle" weight="0.32930514" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32930514" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32930514" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/lpfun/compiler-tests/boolParam1-expected.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpfun/compiler-tests/boolParam1.lpfun">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpfun/parser-tests/test1.lpfun">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpfun/lpfun.sbnf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpfun/compiler-tests/defRetInt2.lpfun">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpfun/compiler-tests/xor01.lpfun">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpse/compiler-tests/add.lpse">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpse/compiler-tests/ANDFF-expected.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpse/compiler-tests/ANDTF.lpse">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpse/compiler-tests/countdown.lpse">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpse/parser-tests/test4.lpse">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpse/lpse.sbnf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpop/parser-tests/test0.lpop">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpop/parser-tests/test2.lpop">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lpop/parser-tests/test6.lpop">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/lpop/LPopTokens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/lpop/LPopParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/lpfun/LPfunCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/lpfun/LPfunParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/lpfun/LPfunTokens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/lpop/LPopCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/lpse/LPseCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/lpse/LPseParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/lpse/LPseTokens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/ParseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
